@@ -153,6 +153,7 @@ div.hidden {
 
 select.field {
     color: #889399;
+    appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
     background-image: url(../svg/form-arrows.svg);
