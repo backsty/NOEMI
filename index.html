@@ -11,7 +11,7 @@
 
     <div class="popup hidden">
         <div class="popup__container">
-            <button class="close-button" type="button">
+            <button class="close__button" type="button">
                 <span class="visually__hidden">Закрыть</span>
             </button>
             <form class="feedback__form">
@@ -70,9 +70,11 @@
                     </div>
                     <nav class="navbar">
                         <!-- Burger menu for mobile -->
-                        <div class="burger__menu" id="burger-menu-1"></div>
-                        <div class="burger__menu" id="burger-menu-2"></div>
-                        <div class="burger__menu" id="burger-menu-3"></div>
+                        <div class="burger__menu-container" id="burger-menu">
+                            <div class="burger__menu" id="burger-menu-1"></div>
+                            <div class="burger__menu" id="burger-menu-2"></div>
+                            <div class="burger__menu" id="burger-menu-3"></div>
+                        </div>
                         <!-- Burger menu for mobile ends-->
                         <ul class="navbar__menu">
                             <li class="navbar__menu-item">
@@ -95,6 +97,17 @@
                             </li>
                         </ul>
                     </nav>
+                    <div class="mobile__menu" id="mobile-menu">
+                        <div class="mobile__menu-close" id="mobile-menu-close">&times;</div>
+                        <ul class="mobile__menu-list">
+                            <li class="mobile__menu-item"><a href="#" class="mobile__menu-link">Главная</a></li>
+                            <li class="mobile__menu-item"><a href="#section-posts" class="mobile__menu-link">Посты</a></li>
+                            <li class="mobile__menu-item"><a href="#section-articles" class="mobile__menu-link">Статьи</a></li>
+                            <li class="mobile__menu-item"><a href="#section-tags" class="mobile__menu-link">Теги</a></li>
+                            <li class="mobile__menu-item"><a href="#section-topics" class="mobile__menu-link">Темы</a></li>
+                            <li class="mobile__menu-item"><a href="#section-contacts" class="mobile__menu-link">Контакты</a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="header__title__container">
                     <h1 class="header__title">Блог о творчестве, спорте <br> и образе жизни</h1>
@@ -155,7 +168,7 @@
     </section>
 
     <div class="page__wrapper" id="section-articles">
-        <main class="main_section">
+        <main class="main__section">
             <article class="post__item">
                 <a class="post__preview-link">
                     <img class="post__preview-img" src="images/last-post1.jpg" alt="Человек на берегу моря">
@@ -509,7 +522,9 @@
             <ul class="social__networks-container">
                 <li class="social__networks-item"><a class="social__icon-item dribbble" href="#"><img src="svg/001-dribbble.svg" alt=""></a></li>
                 <li class="social__networks-item"><a class="social__icon-item pinterest" href="#"><img src="svg/001-pinterest.svg" alt=""></a></li>
+                <li class="social__networks-item"><a class="social__icon-item twitter" href="#"><img src="svg/003-tumblr.svg" alt=""></a></li>
                 <li class="social__networks-item"><a class="social__icon-item twitter" href="#"><img src="svg/004-twitter.svg" alt=""></a></li>
+                <li class="social__networks-item"><a class="social__icon-item twitter" href="#"><img src="svg/005-instagram.svg" alt=""></a></li>
             </ul>
         </address>
         <div class="container__copyright">
@@ -520,5 +535,7 @@
         </div>
     </footer>
 
+
+    <script src="../js/script.js"></script>
 </body>
 </html>
