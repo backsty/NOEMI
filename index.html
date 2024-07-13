@@ -58,12 +58,12 @@
                 <source media="(min-width: 761px) and (max-width: 1199px)" srcset="images/banner-bg-tablet.jpg">
                 <source media="(max-width: 760px)" srcset="images/banner-mobile.jpg">
                 <img class="header__image" src="images/banner-bg.jpg" alt="фон">
-            </picture>    
+            </picture>
         </div>
         <div class="header__content">
             <div class="header__container">
                 <div class="logo__nav-container">
-                    <div class="logo">
+                    <div class="logo desktop__logo">
                         <a class="logo__link" href="#">
                             <img class="logo__image" src="svg/noemi-logo.svg" alt="Логотип">
                         </a>
@@ -71,9 +71,11 @@
                     <nav class="navbar">
                         <!-- Burger menu for mobile -->
                         <div class="burger__menu-container" id="burger-menu">
-                            <div class="burger__menu" id="burger-menu-1"></div>
-                            <div class="burger__menu" id="burger-menu-2"></div>
-                            <div class="burger__menu" id="burger-menu-3"></div>
+                            <div class="burger">
+                                <div class="burger__menu" id="burger-menu-1"></div>
+                                <div class="burger__menu" id="burger-menu-2"></div>
+                                <div class="burger__menu" id="burger-menu-3"></div>
+                            </div>
                         </div>
                         <!-- Burger menu for mobile ends-->
                         <ul class="navbar__menu">
@@ -109,8 +111,15 @@
                         </ul>
                     </div>
                 </div>
-                <div class="header__title__container">
-                    <h1 class="header__title">Блог о творчестве, спорте <br> и образе жизни</h1>
+                <div class="content__container">
+                    <div class="logo mobile__logo">
+                        <a class="logo__link" href="#">
+                            <img class="logo__image" src="svg/noemi-logo.svg" alt="Логотип">
+                        </a>
+                    </div>
+                    <div class="header__title__container">
+                        <h1 class="header__title">Блог о творчестве, спорте <br> и образе жизни</h1>
+                    </div>
                 </div>
             </div>
         </div>
