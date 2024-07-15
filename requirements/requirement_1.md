@@ -2,7 +2,7 @@
 
 ## Задание
 
-Сверстать макет стационарной версии [./psd/NOEMI_mq_desktop.psd](./psd/NOEMI_mq_desktop.psd) 
+Сверстать макет стационарной версии [../psd/NOEMI_mq_desktop.psd](../psd/NOEMI_mq_desktop.psd) 
 в соответствии с требованиями ниже:
 
 ## Требования
