@@ -492,6 +492,7 @@ textarea.field:focus {
     margin-top: 6px;
     line-height: 24px;
     color: #ffffff;
+    text-transform: uppercase;
 }
 
 .trend__title-link:hover {
@@ -569,7 +570,7 @@ textarea.field:focus {
 }
 
 .post__preview-img {
-    min-width: 380px;
+    width: 380px;
 }
 
 .post__title {
@@ -806,7 +807,7 @@ textarea.field:focus {
     margin-right: 5px;
     margin-bottom: 6px;
     border: 3px solid #eeeeee;
-    padding: 3px 13px;
+    padding: 0 13px;
     font-weight: 700;
     font-size: 12px;
     line-height: 30px;
@@ -870,8 +871,8 @@ textarea.field:focus {
     margin: 0 auto;
     padding: 0 23px;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .product__item {
@@ -1078,6 +1079,13 @@ textarea.field:focus {
     }
 }
 
+@media (min-width: 641px) and (max-width: 758px) {
+    .products__main__container {
+        display: flex;
+        justify-content: center !important;
+    }
+}
+
 /* Tablet */
 @media (min-width: 641px) and (max-width: 1199px) {
     .header {
@@ -1173,7 +1181,7 @@ textarea.field:focus {
     }
 
     .post__preview-img {
-        min-width: 100%;
+        width: 100%;
     }
 
     .mobile__underline {
@@ -1190,11 +1198,8 @@ textarea.field:focus {
         line-height: 1.3;
     }
 
-    .side__menu__section {
-        margin-left: 35px;
-    }
-
     .page__sidebar {
+        max-width: 270px;
         margin-left: 35px;
         width: 40%;
     }
@@ -1216,9 +1221,11 @@ textarea.field:focus {
 
     .products__main__container {
         max-width: 1199px;
-        margin: 0 35px;
+        margin: 0 auto;
         padding: 0 15px;
         flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
     }
 
     .products__main__container>* {
@@ -1226,7 +1233,7 @@ textarea.field:focus {
     }
 
     .product__item {
-        padding: 0 23px 23px;
+        padding: 0 36px 36px;
         display: flex;
     }
 
@@ -1264,13 +1271,12 @@ textarea.field:focus {
 }
 
 /* One products card */
-@media (max-width: 760px) {
+@media (max-width: 461px) {
     .burger__menu-container {
         display: flex !important;
     }
 
     .product__item {
-        align-items: center;
         width: 100%;
         height: 100%;
         padding: 0;
@@ -1297,6 +1303,7 @@ textarea.field:focus {
 
 /* Phone */
 @media (max-width: 640px) {
+
     /* popup */
     .feedback__form {
         padding: 27px 24px 32px;
@@ -1467,7 +1474,7 @@ textarea.field:focus {
     }
 
     .post__preview-img {
-        min-width: 100%;
+        width: 100%;
     }
 
     .post__title {
@@ -1550,7 +1557,7 @@ textarea.field:focus {
     .container__copyright {
         margin: 45px auto 45px;
     }
- }
+}
 
 .burger__menu-container {
     display: none;
